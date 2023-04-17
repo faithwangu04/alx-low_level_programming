@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "dog.h"
+	#include "dog.h"
 
 
 /**
@@ -26,7 +26,7 @@
 	}
 
 
- /**
+/**
  * *_strcpy - copies the string pointed to by src
  * including the terminating null byte (\0)
  * to the buffer pointed to by dest
@@ -35,8 +35,8 @@
  *
  * Return: the pointer to dest
  */
-char *_strcpy(char *dest, char *src)
-		{
+	char *_strcpy(char *dest, char *src)
+	{
 		int len, i;
 
 
@@ -68,8 +68,8 @@ char *_strcpy(char *dest, char *src)
  *
  * Return: pointer to the new dog (Success), NULL otherwise
  */
-		idog_t *new_dog(char *name, float age, char *owner)
-		{
+	dog_t *new_dog(char *name, float age, char *owner)
+	{
 		dog_t *dog;
 		int len1, len2;
 
